@@ -2,7 +2,7 @@
 pragma solidity  <= 0.9.0;
 
 
-contract iVoting {
+contract BallotBox {
     mapping (bytes32 => bool) private  eligibleToVote;
     mapping (string => uint128) private voteCount;
     string[] private candidates;
